@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.xbmces" name="EmulationStation" version="1.0.0" provider-name="romainhild">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="addon.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Start EmulationStation</summary>
+    <summary lang="fr">Lance EmulationStation</summary>
+    <description lang="en">Stop Xbmc/Kodi, start EmulationStation and start Xbmc/Kodi when exit</description>
+    <description lang="fr">Arrete Xbmc/Kodi, lance EmulationStation et relance Xbmc/Kodi une fois fini</description>
+    <platform>linux</platform>
+    <license>GNU General Public License, v2</license>
+    <language>en fr</language>
+    <source>http://github.com/romainhild/xbmces.git</source>
+    <email></email>
+  </extension>
+</addon>
