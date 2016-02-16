@@ -15,7 +15,7 @@
     <platform>linux</platform>
     <license>GNU General Public License, v2</license>
     <language>en fr</language>
-    <source>http://github.com/romainhild/xbmces.git</source>
+    <source>https://github.com/romainhild/script.xbmces</source>
     <email></email>
   </extension>
 </addon>
