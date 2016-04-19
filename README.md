@@ -9,5 +9,5 @@ This is for Linux, and has been tested on a raspberry pi via Xbian.
 
 You need to edit your sudoers fils so you don't need to enter your password for the `service` command:
 ```
-user (ALL) = (root) NOPASSWD: /usr/bin/service
+user ALL = (root) NOPASSWD: /usr/bin/service
 ```
